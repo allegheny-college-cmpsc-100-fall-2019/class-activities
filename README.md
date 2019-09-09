@@ -6,20 +6,20 @@ Remember to save this folder in an easily-accessible and easy to remember locati
 
 ## Setup
 
-For the _first class using this repository_, run the following command to clone the content:
+After performing a successful `clone` operation, `cd` to the main directory of your copy of the repository and run the following command:
 
 ```
-git clone git@github.com:allegheny-college-cmpsc-100-fall-2019/class-activities.git
+git remote add download git@github.com:allegheny-college-cmpsc-100-fall-2019/class-activities.git
 ```
 
-This is a read-only repository, so you will not be able to `commit` against it.
+This is a read-only repository, so you will not be able to `commit` against it. Here, we are adding the main repository as a `remote`, which is a location from which you can pull updates and changes.
 
 ## Updating
 
 For subsequent class sessions, or when class content is added, simply run:
 
 ```
-git pull origin master
+git pull download master
 ```
 
 This will update content added to the repository since the last `clone` operation.
