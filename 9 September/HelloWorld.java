@@ -1,8 +1,13 @@
 package greetings;
 
 public class HelloWorld {
-  public static void main(String[] args) {
-    // This is a comment. Does it display?
-    System.out.println("Hello, World!");
+  
+  public static String say(){
+    return "Hello, World!";
   }
+  
+  public static void main(String[] args) {
+    System.out.println(say());
+  }
+  
 }
