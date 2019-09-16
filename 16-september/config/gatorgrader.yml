@@ -1,0 +1,11 @@
+---
+name: 16-september
+break: true
+indent: 4
+---
+src/main:
+    java:
+        ThievesStory/ThievesStory.java:
+            ConfirmFileExists
+
+MatchCommandRegex --command "gradle run" --regex "There are 4 junior members, and 6 senior members." --count 1 --exact
