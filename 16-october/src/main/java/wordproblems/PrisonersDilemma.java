@@ -23,5 +23,7 @@ public class PrisonersDilemma {
     // Print results
     System.out.println("\nAlice's sentence: " + yearsA + " year(s).");
     System.out.println("\nBob's sentence: " + yearsB + " year(s).");
+    if(yearsA <= 1 && yearsB <= 1)
+      System.out.println("\nAND THEY LIVE TO CATNAP AGAIN!");
   }
 }
